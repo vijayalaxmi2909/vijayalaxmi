@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid: template rows and columns</title>
+    <style>
+        .grid-container{
+            display:grid;
+            grid-template-columns:5fr 5fr 5fr;
+            grid-template-rows:50px 50px 50px 50px 50px 50px ;
+            gap: 10px;
+        }
+        .grid-item{
+            background-color: rgb(118, 187, 208);
+            border: 2px solid#010101;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+    <div class="grid-item">Yasmin</div>
+    <div class="grid-item">Sejal</div> 
+    <div class="grid-item">Spoorti</div> 
+    <div class="grid-item">Sanika</div>
+    <div class="grid-item">Apurva</div>
+    <div class="grid-item">Sakshi</div>
+    
+</body>
+</html>
